@@ -1,4 +1,4 @@
-from aula2.identificacaodeFuncoes import *
+from aula2Cap3.identificacaodeFuncoes import *
 
 minhaLista=[]
 print("Preenchendo")
