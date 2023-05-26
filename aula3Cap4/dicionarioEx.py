@@ -9,4 +9,8 @@ print(usuarios)
 usuarios["Florinda"]=["Florinda Flores", "26/11/2017", "Recep_01"]
 print(usuarios)
 
+print("####----####")
+
+# Verificar ultimo login do usuário:
+print(usuarios.get("Quico"))
 
