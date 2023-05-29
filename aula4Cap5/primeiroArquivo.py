@@ -11,7 +11,7 @@ with open("aula4Cap5/primeiro_arquivo.txt", "a") as arquivo:
 
 
 
-
+# Sempre que quiser adicionar informações em um arquivo já existente, utilize o "a"
 
 # r = read, ler
 # w = write, escrita
