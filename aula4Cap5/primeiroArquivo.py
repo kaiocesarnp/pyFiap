@@ -6,8 +6,18 @@
 
 
 # Melhorando o código, adicionando texto
-with open("aula4Cap5/primeiro_arquivo.txt", "a") as arquivo:
-    arquivo.write("\nHakuna Matata")
+# with open("aula4Cap5/primeiro_arquivo.txt", "a") as arquivo:
+#     arquivo.write("\nHakuna Matata")
+#     arquivo.write("\nMuito lindo viver")
+#     arquivo.write("\nCe vai entender")
+#     arquivo.write("\nHakuna Matata")
+
+# Ler arquivo:
+with open("aula4Cap5/primeiro_arquivo.txt", "r") as arquivo:
+    conteudo = arquivo.read()
+    print(conteudo)
+
+
 
 
 
