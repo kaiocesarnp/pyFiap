@@ -14,8 +14,14 @@
 
 # Ler arquivo:
 with open("aula4Cap5/primeiro_arquivo.txt", "r") as arquivo:
-    conteudo = arquivo.read()
+    conteudo = arquivo.read() #lê o arquivo completo
+    conteudo = arquivo.readline() #só lê a primeira linha
     print(conteudo)
+
+#Lê linha à linha, dando espaço entre elas
+with open("aula4Cap5/primeiro_arquivo.txt", "r") as arquivo:
+    for linha in arquivo.readlines():
+        print(linha)
 
 
 
