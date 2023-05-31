@@ -1,4 +1,6 @@
-from aula3Cap4.funcoes import *
+# from aula3Cap4.funcoes import *
+from funcoes import *
+
 # Importa o arquivo "funcoes.py" com as perguntas para o usuario, 
     # assim, nao é necessario adicionar as perguntas sempre neste arquivo.
 
