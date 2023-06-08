@@ -4,20 +4,19 @@ import platform
 import getpass # Usuário da máquina
 from datetime import datetime 
 
-# print("Distribuição do Sistema Operacional.: ", platform.platform())
+print("Distribuição do Sistema Operacional.: ", platform.platform())
 print("Nome do Sistema Operacional.........: ", platform.system())
 print("Versão do Sistema Operacional.......: ", platform.release())
 print("Arquitetura.........................: ", platform.architecture())
 print("Nome do Computador..................: ", platform.node())
-# print("Tipo de Máquina.....................: ", platform.machine())
+print("Tipo de Máquina.....................: ", platform.machine())
 print("Processador.........................: ", platform.processor())
 print("Versão do Python....................: ", platform.python_version())
 
-
-# Usuário da máquina
+# # Usuário da máquina
 print("Usuário.......: ", getpass.getuser())
 
-
+# # Data e Hora
 print("Data Completa.: ", datetime.now())
 print("Dia...........: ", datetime.now().day)
 print("Mês...........: ", datetime.now().month)
