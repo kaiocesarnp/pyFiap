@@ -1,6 +1,8 @@
 # Verificando características do computador:
 
 import platform
+import getpass # Usuário da máquina
+from datetime import datetime 
 
 # print("Distribuição do Sistema Operacional.: ", platform.platform())
 print("Nome do Sistema Operacional.........: ", platform.system())
@@ -10,3 +12,16 @@ print("Nome do Computador..................: ", platform.node())
 # print("Tipo de Máquina.....................: ", platform.machine())
 print("Processador.........................: ", platform.processor())
 print("Versão do Python....................: ", platform.python_version())
+
+
+# Usuário da máquina
+print("Usuário.......: ", getpass.getuser())
+
+
+print("Data Completa.: ", datetime.now())
+print("Dia...........: ", datetime.now().day)
+print("Mês...........: ", datetime.now().month)
+print("Ano...........: ", datetime.now().year)
+print("Hora..........: ", datetime.now().hour)
+print("Minuto........: ", datetime.now().minute)
+print("Segundo.......: ", datetime.now().second)
