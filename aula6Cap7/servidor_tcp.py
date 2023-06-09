@@ -1,3 +1,5 @@
+# APLICAÇÃO SERVIDORA COM TCP
+
 from socket import * # importa todos os métodos da biblioteca socket
 
 servidor = "127.0.0.1" #localhost
