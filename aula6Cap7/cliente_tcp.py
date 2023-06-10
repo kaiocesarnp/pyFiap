@@ -1,4 +1,7 @@
 # APLICAÇÃO CLIENTE COM TCP
+# Faz ligação com o arquivo "servido_tcp.py"
+# Rodar primeiro o servidor_tcp.py e depois este arquivo.
+# Funcionou atraves do debug. Procurando outras formas...
 
 from socket import *
 
